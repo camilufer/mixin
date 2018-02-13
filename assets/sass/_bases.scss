@@ -1,0 +1,15 @@
+.box_uno{
+	@include cuadrados(100px, 100px, red);
+}
+.box_dos{
+  @include cuadrados(200px, 200px, blue);
+}
+.circulo_azul{
+  @include circle(100px, $blue);
+}
+.circulo_rojo{
+  @include circle(200px, $red);
+}
+.circulo_verde{
+  @include circle(300px, $green);
+}

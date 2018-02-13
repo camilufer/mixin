@@ -1,0 +1,16 @@
+/* declaramos como parámetros variables para poder modificar despúes */
+@mixin cuadrados($ancho, $alto, $color){
+	width: $ancho;
+	height: $alto;
+	background-color: $color;
+  border-radius: 5%; // despúes no se va a poder modificar el tamaño porque es valor fijo
+  text-alin: center;
+  margin: 5px;
+}
+
+@mixin circle($size, $color) { //circulos con distinta medida y color
+  border-radius: 50%;
+  width: $size;
+  height: $size;
+  background-color: $color;
+}
